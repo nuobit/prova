@@ -1,12 +1,12 @@
 deploy:
-- provider: pypi
-  distributions: sdist
+  provider: pypi
   server: https://testpypi.python.org/pypi
   user: eantones
   password:
     secure: N0K6WMX3MjkS4WK2W8Zfk5N/vNrH6is0DbcPp/nP6NBFL5c1/q6Cl0YxvzFJNxPgrT8VsUbliO17/I+NQttjJWfvNmIFAyYuoBQO4syf6m6tkEwRDeZnzD40sf6eAlOBNRKSfbyUiVcySOhD9w1IRhLM4aBMaT0JxcbQUmL5OfGfxLa7kXP4cCvGLdweH7ls/i0IdRIYgzgoQN9kf9LX6Q6Q0qQc9R9gpQE/SmhBJkNGKtVVVZj3aCndZ28Tdu5TWqloStZQbKJ2Zm28fuYzpp7Yvgl/BfgbAX3maoaZ6WT/6fZXvqrT1iGQhZ6Pi9g4yEkzIbyMSBs9UUr+n7n5TftGubyNc2DLJX4m9E8kXI8eMRkMrLk+yxbjPCKG6xi9uP+SxBDKFaI0NZCTgEDoNOXb2xHo3E99S8k3Jbd6QS+OlbmVNB2Yn8UPBCVPABvd58PwHeupJMzmfTpG7e72OY2TOU5Ut/4Q9xFkAlXxskRUnRM28ueXN7xDRQDcrC/D7BAX5v1PUicw5VMGrWyiXNIkSGLqSTAmpa0i0iVC7K3QQ0EBI0qYgYpiauxhYXJrAXf6Bja09Lg9lxwyxw4106QT206M2dhSGhD+wixBcZhz9VIqGrOmIysV9cB9lXrzUF1GU/LP+3FGWAdnIZEH1EQYXg0pIHq6YWFmmJVzcaE=
-
   on:
+    repo: nuobit/prova
+    distributions: sdist
     branch: master
     tags: false
     condition: $TRAVIS_PYTHON_VERSION = "3.5"
