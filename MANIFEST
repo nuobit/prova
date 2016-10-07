@@ -3,7 +3,4 @@ LICENSE
 MANIFEST.in
 README.md
 setup.py
-config.samples/logger.conf
-config.samples/servers.conf.d/01sample1.conf
-src/__init__.py
-src/coolbackup.py
+src/prova.py
