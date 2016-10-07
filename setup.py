@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name='prova',
-      version='0.2',
+      version='0.3',
       author="NuoBiT Solutions, S.L., Eric Antones",
       author_email='eantones@nuobit.com',
       package_dir={'prova': 'src'},
