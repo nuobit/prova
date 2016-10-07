@@ -28,7 +28,7 @@ setup(name='prova',
         'Operating System :: POSIX :: Linux',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.4',
       ]
       #data_files=[('config.samples', ['config.samples/servers.conf.d/01sample1.conf', 'config.samples/logger.conf']),
       #          ],
